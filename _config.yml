@@ -1,32 +1,39 @@
 # Configurações do site — Jekyll + tema minima
-title: Meu Site Jekyll
+title: Blog Pulso
 description: >-
-  Um site simples criado com Jekyll e o tema padrão minima,
-  com uma seção de blog.
+  Blog do Pulso sobre a NR1: riscos psicossociais, conformidade,
+  prazos e boas práticas para o RH.
 baseurl: "" # subpasta do site, ex: "/blog" — deixe vazio se for a raiz
-url: "" # domínio final, ex: "https://seudominio.com"
+url: "https://pbarbosa1999.github.io" # domínio final do GitHub Pages
 
 # Tema
 theme: minima
 
 # Informações do autor (usadas pelo minima no rodapé/RSS)
 author:
-  name: Seu Nome
+  name: Pulso
 email: contato@exemplo.com
 
 # Redes sociais (opcional — usadas pelo rodapé do minima)
 minima:
   social_links:
     - platform: github
-      user_url: "https://github.com/seuusuario"
+      user_url: "https://github.com/pbarbosa1999"
 
 # Plugins
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Pastas/arquivos que o Jekyll não deve processar/copiar para o _site
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - CLAUDE.md
   - vendor
+  - scripts
+  - data
+  - "*.gitignore"
+

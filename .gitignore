@@ -5,3 +5,6 @@ _site/
 vendor/
 .bundle/
 Gemfile.lock
+.env
+__pycache__/
+
